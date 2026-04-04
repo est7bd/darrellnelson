@@ -271,7 +271,7 @@ h1 {
 }
 
 .avatar {
-  width: 52px; height: 52px;
+  width: 80px; height: 80px;
   border-radius: 50%;
   background-image: url('../img/headshot.jpg');
   background-size: cover;
@@ -666,7 +666,7 @@ h1 {
   .profile-card {
     position: static;
   }
-  .avatar { width: 44px; height: 44px; }
+  .avatar { width: 64px; height: 64px; }
 }
 
 @media (max-width: 680px) {
