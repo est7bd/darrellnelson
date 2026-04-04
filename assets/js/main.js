@@ -1,5 +1,26 @@
 /* darrellnelson.org — main.js */
 
+// Easter egg — console message
+(function() {
+  const b = 'color: #4f8ff7; font-weight: bold; font-size: 13px;';
+  const d = 'color: #68788f; font-size: 12px;';
+  const w = 'color: #dce4f4; font-size: 12px;';
+  console.log('%c'
+    + '██████╗ ███╗   ██╗\n'
+    + '██╔══██╗████╗  ██║\n'
+    + '██║  ██║██╔██╗ ██║\n'
+    + '██║  ██║██║╚██╗██║\n'
+    + '██████╔╝██║ ╚████║\n'
+    + '╚═════╝ ╚═╝  ╚═══╝', b);
+  console.log('%cDarrell Nelson%c — darrellnelson.org', b, d);
+  console.log('%c───────────────────────────────────────', d);
+  console.log('%cHey. You opened devtools. I respect that.', w);
+  console.log('%cFounder & CEO · Varayo  |  est. 0x7BD (1981)', d);
+  console.log('%c───────────────────────────────────────', d);
+  console.log('%c→ linkedin.com/in/darrellnelson', d);
+  console.log('%c→ x.com/est7bd', d);
+})();
+
 document.addEventListener('DOMContentLoaded', () => {
 
   // Year
